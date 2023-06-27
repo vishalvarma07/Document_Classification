@@ -55,6 +55,7 @@ def identify_document_type(document):
         invalid: if the document type is invalid
     """
     #document_type = None
+    image_extensions = ['jpg','png','jpeg','webp','tiff','bmp']
     if document != None:
         extension = document.filename.split('.')[-1].lower()
         if extension == 'pdf':
@@ -66,7 +67,7 @@ def identify_document_type(document):
             # converting the bytes to image
             pages = convert_from_bytes(document)
             pages[0].save('page0.jpg', 'JPEG')
-        elif extension == 'jpg' or extension == 'jpeg' or extension == 'png' or extension == 'webp':
+        elif extension in image_extensions:
             document_type = 'image'
             document.save('page0.jpg')
         else:
