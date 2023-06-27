@@ -1,0 +1,192 @@
+﻿File Type,Document Type,File Path,Expected Output,Actual Output,Status
+jpeg,invoice,/sampledocs/cardoctorinvoice.jpeg,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}",Passed
+jpeg,invoice,/sampledocs/inv24invoice.jpeg,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}",Passed
+webp,invoice,/sampledocs/philipinvoice.webp,"{
+    ""error"": ""Invalid Document or Low Quality Image. Please reupload.""
+}","{
+    ""error"": ""Invalid Document or Low Quality Image. Please reupload.""
+}",Passed
+png,invoice,/sampledocs/stanfordinvoice.png,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}",Passed
+png,invoice,/sampledocs/redmineinvoice.png,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""invoice""
+}",Passed
+jpeg,invoice,/sampledocs/sampleinvoice.jpeg,"{
+    ""error"": ""Invalid Document or Low Quality Image. Please reupload.""
+}",,
+png,purchase order,/sampledocs/purchasecontrolpo.png,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}",Passed
+webp,purchase order,/sampledocs/planergypo.webp,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}",Passed
+webp,purchase order,/sampledocs/unrealpo.webp,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}",Passed
+jpeg,purchase order,/sampledocs/docentricpo.jpeg,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}",Passed
+jpeg,purchase order,/sampledocs/yumpupo.jpeg,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""purchase order""
+}",Passed
+webp,sales order,/sampledocs/zcommso.webp,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""sales order""
+}",Passed
+png,sales order,/sampledocs/unicoso.png,"{
+    ""document_type"": ""image"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""image"",
+    ""file_type"": ""sales order""
+}",Passed
+jpeg,sales order,/sampledocs/ceoso.jpeg,"{
+    ""error"": ""Invalid Document or Low Quality Image. Please reupload.""
+}",,
+pdf,invoice,/sampledocs/cacinvoice.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}",Passed
+pdf,invoice,/sampledocs/dupontinvoice.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}",Passed
+pdf,invoice,/sampledocs/isolainvoice.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}",Passed
+pdf,invoice,/sampledocs/lcoainvoice.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""invoice""
+}",Passed
+pdf,purchase order,/sampledocs/purchase.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""purchase order""
+}",Passed
+pdf,purchase order,/sampledocs/purchase1.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""purchase order""
+}",Passed
+pdf,purchase order,/sampledocs/purchase2.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""purchase order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""purchase order""
+}",Passed
+pdf,sales order,/sampledocs/sampleso.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}",Passed
+png,empty document,/sampledocs/sampleempty,"{
+    ""error"": ""Invalid Document or Low Quality Image. Please reupload.""
+}","{
+    ""error"": ""Invalid Document or Low Quality Image. Please reupload.""
+}",Passed
+pdf,sales order,/sampledocs/sampleso1.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}",Passed
+pdf,sales order,/sampledocs/sampleso2.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}",Passed
+pdf,sales order,/sampledocs/sampleso3.odf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}",Passed
+pdf,sales order,/sampledocs/sampleso4.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}",Passed
+pdf,sales order,/sampledocs/sampleso5.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}",Passed
+pdf,sales order,/sampledocs/sampleso6.pdf,"{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}","{
+    ""document_type"": ""pdf"",
+    ""file_type"": ""sales order""
+}",Passed
